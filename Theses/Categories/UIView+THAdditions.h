@@ -1,13 +1,13 @@
 //
-//  THRootViewController.h
+//  UIView+THAdditions.h
 //  Theses
 //
 //  Created by 吴 天 on 12-10-21.
 //  Copyright (c) 2012年 NFSYSU. All rights reserved.
 //
 
-#import "THViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface THRootViewController : THViewController
+@interface UIView (THAdditions)
 
 @end

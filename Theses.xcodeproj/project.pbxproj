@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C62378351633980100DD3CCD /* THConversationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62378341633980100DD3CCD /* THConversationsViewController.m */; };
+		C623783D1633B18800DD3CCD /* THHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C623783C1633B18800DD3CCD /* THHomeViewController.m */; };
+		C62378501633B51B00DD3CCD /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = C623784D1633B51B00DD3CCD /* IIViewDeckController.m */; };
+		C62378511633B51B00DD3CCD /* WrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = C623784F1633B51B00DD3CCD /* WrapController.m */; };
+		C62378531633B69800DD3CCD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62378521633B69800DD3CCD /* QuartzCore.framework */; };
 		C6490F14163392BD000257F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6490F13163392BD000257F4 /* UIKit.framework */; };
 		C6490F16163392BD000257F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6490F15163392BD000257F4 /* Foundation.framework */; };
 		C6490F18163392BD000257F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6490F17163392BD000257F4 /* CoreGraphics.framework */; };
@@ -18,13 +22,31 @@
 		C6490F28163392BD000257F4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6490F27163392BD000257F4 /* Default@2x.png */; };
 		C6490F2A163392BD000257F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6490F29163392BD000257F4 /* Default-568h@2x.png */; };
 		C6490F3216339360000257F4 /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6490F3116339360000257F4 /* THViewController.m */; };
-		C6490F35163393B5000257F4 /* THRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6490F34163393B5000257F4 /* THRootViewController.m */; };
-		C6490F481633967A000257F4 /* THTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6490F471633967A000257F4 /* THTabBarController.m */; };
+		C6EE28D71633D3940012AB9D /* THViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE28D61633D3940012AB9D /* THViewDeckController.m */; };
+		C6EE28DB1633D4B10012AB9D /* THNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE28DA1633D4B10012AB9D /* THNavigationController.m */; };
+		C6EE28E51633ECBB0012AB9D /* bg_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EE28DD1633ECBB0012AB9D /* bg_texture.png */; };
+		C6EE28E61633ECBB0012AB9D /* bg_texture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EE28DE1633ECBB0012AB9D /* bg_texture@2x.png */; };
+		C6EE28E71633ECBB0012AB9D /* bg_title_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EE28DF1633ECBB0012AB9D /* bg_title_bar.png */; };
+		C6EE28E81633ECBB0012AB9D /* bg_title_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EE28E01633ECBB0012AB9D /* bg_title_bar@2x.png */; };
+		C6EE28E91633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_default.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EE28E11633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_default.png */; };
+		C6EE28EA1633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EE28E21633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_default@2x.png */; };
+		C6EE28EB1633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EE28E31633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_pressed.png */; };
+		C6EE28EC1633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EE28E41633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_pressed@2x.png */; };
+		C6EE28F11633ED0B0012AB9D /* UIImage+THAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE28F01633ED0B0012AB9D /* UIImage+THAdditions.m */; };
+		C6EE28F41633ED1D0012AB9D /* UIView+THAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE28F31633ED1D0012AB9D /* UIView+THAdditions.m */; };
+		C6EE28F61633F5D50012AB9D /* LISCENSE in Resources */ = {isa = PBXBuildFile; fileRef = C6EE28F51633F5D50012AB9D /* LISCENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C62378331633980100DD3CCD /* THConversationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THConversationsViewController.h; path = classes/THConversationsViewController.h; sourceTree = "<group>"; };
 		C62378341633980100DD3CCD /* THConversationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THConversationsViewController.m; path = classes/THConversationsViewController.m; sourceTree = "<group>"; };
+		C623783B1633B18800DD3CCD /* THHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THHomeViewController.h; path = classes/THHomeViewController.h; sourceTree = "<group>"; };
+		C623783C1633B18800DD3CCD /* THHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THHomeViewController.m; path = classes/THHomeViewController.m; sourceTree = "<group>"; };
+		C623784C1633B51B00DD3CCD /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		C623784D1633B51B00DD3CCD /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		C623784E1633B51B00DD3CCD /* WrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrapController.h; sourceTree = "<group>"; };
+		C623784F1633B51B00DD3CCD /* WrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrapController.m; sourceTree = "<group>"; };
+		C62378521633B69800DD3CCD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C6490F0F163392BD000257F4 /* Theses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Theses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6490F13163392BD000257F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C6490F15163392BD000257F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,10 +62,23 @@
 		C6490F29163392BD000257F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C6490F3016339360000257F4 /* THViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THViewController.h; path = classes/THViewController.h; sourceTree = "<group>"; };
 		C6490F3116339360000257F4 /* THViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THViewController.m; path = classes/THViewController.m; sourceTree = "<group>"; };
-		C6490F33163393B5000257F4 /* THRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THRootViewController.h; path = classes/THRootViewController.h; sourceTree = "<group>"; };
-		C6490F34163393B5000257F4 /* THRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THRootViewController.m; path = classes/THRootViewController.m; sourceTree = "<group>"; };
-		C6490F4616339679000257F4 /* THTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THTabBarController.h; path = classes/THTabBarController.h; sourceTree = "<group>"; };
-		C6490F471633967A000257F4 /* THTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THTabBarController.m; path = classes/THTabBarController.m; sourceTree = "<group>"; };
+		C6EE28D51633D3940012AB9D /* THViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THViewDeckController.h; sourceTree = "<group>"; };
+		C6EE28D61633D3940012AB9D /* THViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THViewDeckController.m; sourceTree = "<group>"; };
+		C6EE28D91633D4B10012AB9D /* THNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THNavigationController.h; path = classes/THNavigationController.h; sourceTree = "<group>"; };
+		C6EE28DA1633D4B10012AB9D /* THNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THNavigationController.m; path = classes/THNavigationController.m; sourceTree = "<group>"; };
+		C6EE28DD1633ECBB0012AB9D /* bg_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_texture.png; sourceTree = "<group>"; };
+		C6EE28DE1633ECBB0012AB9D /* bg_texture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_texture@2x.png"; sourceTree = "<group>"; };
+		C6EE28DF1633ECBB0012AB9D /* bg_title_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_title_bar.png; sourceTree = "<group>"; };
+		C6EE28E01633ECBB0012AB9D /* bg_title_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_title_bar@2x.png"; sourceTree = "<group>"; };
+		C6EE28E11633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_nav_bar_light_rect_confirm_default.png; sourceTree = "<group>"; };
+		C6EE28E21633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_nav_bar_light_rect_confirm_default@2x.png"; sourceTree = "<group>"; };
+		C6EE28E31633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_nav_bar_light_rect_confirm_pressed.png; sourceTree = "<group>"; };
+		C6EE28E41633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_nav_bar_light_rect_confirm_pressed@2x.png"; sourceTree = "<group>"; };
+		C6EE28EF1633ED0B0012AB9D /* UIImage+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+THAdditions.h"; sourceTree = "<group>"; };
+		C6EE28F01633ED0B0012AB9D /* UIImage+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+THAdditions.m"; sourceTree = "<group>"; };
+		C6EE28F21633ED1D0012AB9D /* UIView+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THAdditions.h"; sourceTree = "<group>"; };
+		C6EE28F31633ED1D0012AB9D /* UIView+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THAdditions.m"; sourceTree = "<group>"; };
+		C6EE28F51633F5D50012AB9D /* LISCENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LISCENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62378531633B69800DD3CCD /* QuartzCore.framework in Frameworks */,
 				C6490F14163392BD000257F4 /* UIKit.framework in Frameworks */,
 				C6490F16163392BD000257F4 /* Foundation.framework in Frameworks */,
 				C6490F18163392BD000257F4 /* CoreGraphics.framework in Frameworks */,
@@ -60,9 +96,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C623784A1633B51A00DD3CCD /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				C623784B1633B51B00DD3CCD /* ViewDeck */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		C623784B1633B51B00DD3CCD /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				C623784C1633B51B00DD3CCD /* IIViewDeckController.h */,
+				C623784D1633B51B00DD3CCD /* IIViewDeckController.m */,
+				C623784E1633B51B00DD3CCD /* WrapController.h */,
+				C623784F1633B51B00DD3CCD /* WrapController.m */,
+				C6EE28F51633F5D50012AB9D /* LISCENSE */,
+			);
+			path = ViewDeck;
+			sourceTree = "<group>";
+		};
 		C6490F04163392BD000257F4 = {
 			isa = PBXGroup;
 			children = (
+				C62378521633B69800DD3CCD /* QuartzCore.framework */,
 				C6490F19163392BD000257F4 /* Theses */,
 				C6490F12163392BD000257F4 /* Frameworks */,
 				C6490F10163392BD000257F4 /* Products */,
@@ -92,6 +149,9 @@
 			children = (
 				C6490F22163392BD000257F4 /* ThesesAppDelegate.h */,
 				C6490F23163392BD000257F4 /* ThesesAppDelegate.m */,
+				C6EE28EE1633ECF60012AB9D /* Categories */,
+				C6EE28DC1633ECBB0012AB9D /* Resources */,
+				C623784A1633B51A00DD3CCD /* Vendors */,
 				C6490F3D1633944C000257F4 /* Controllers */,
 				C6490F1A163392BD000257F4 /* Supporting Files */,
 			);
@@ -115,12 +175,16 @@
 		C6490F36163393BA000257F4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				C6490F33163393B5000257F4 /* THRootViewController.h */,
-				C6490F34163393B5000257F4 /* THRootViewController.m */,
 				C6490F3016339360000257F4 /* THViewController.h */,
 				C6490F3116339360000257F4 /* THViewController.m */,
 				C62378331633980100DD3CCD /* THConversationsViewController.h */,
 				C62378341633980100DD3CCD /* THConversationsViewController.m */,
+				C623783B1633B18800DD3CCD /* THHomeViewController.h */,
+				C623783C1633B18800DD3CCD /* THHomeViewController.m */,
+				C6EE28D51633D3940012AB9D /* THViewDeckController.h */,
+				C6EE28D61633D3940012AB9D /* THViewDeckController.m */,
+				C6EE28D91633D4B10012AB9D /* THNavigationController.h */,
+				C6EE28DA1633D4B10012AB9D /* THNavigationController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -129,10 +193,34 @@
 			isa = PBXGroup;
 			children = (
 				C6490F36163393BA000257F4 /* ViewControllers */,
-				C6490F4616339679000257F4 /* THTabBarController.h */,
-				C6490F471633967A000257F4 /* THTabBarController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C6EE28DC1633ECBB0012AB9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6EE28DD1633ECBB0012AB9D /* bg_texture.png */,
+				C6EE28DE1633ECBB0012AB9D /* bg_texture@2x.png */,
+				C6EE28DF1633ECBB0012AB9D /* bg_title_bar.png */,
+				C6EE28E01633ECBB0012AB9D /* bg_title_bar@2x.png */,
+				C6EE28E11633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_default.png */,
+				C6EE28E21633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_default@2x.png */,
+				C6EE28E31633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_pressed.png */,
+				C6EE28E41633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_pressed@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C6EE28EE1633ECF60012AB9D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C6EE28EF1633ED0B0012AB9D /* UIImage+THAdditions.h */,
+				C6EE28F01633ED0B0012AB9D /* UIImage+THAdditions.m */,
+				C6EE28F21633ED1D0012AB9D /* UIView+THAdditions.h */,
+				C6EE28F31633ED1D0012AB9D /* UIView+THAdditions.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +278,15 @@
 				C6490F26163392BD000257F4 /* Default.png in Resources */,
 				C6490F28163392BD000257F4 /* Default@2x.png in Resources */,
 				C6490F2A163392BD000257F4 /* Default-568h@2x.png in Resources */,
+				C6EE28E51633ECBB0012AB9D /* bg_texture.png in Resources */,
+				C6EE28E61633ECBB0012AB9D /* bg_texture@2x.png in Resources */,
+				C6EE28E71633ECBB0012AB9D /* bg_title_bar.png in Resources */,
+				C6EE28E81633ECBB0012AB9D /* bg_title_bar@2x.png in Resources */,
+				C6EE28E91633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_default.png in Resources */,
+				C6EE28EA1633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_default@2x.png in Resources */,
+				C6EE28EB1633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_pressed.png in Resources */,
+				C6EE28EC1633ECBB0012AB9D /* btn_nav_bar_light_rect_confirm_pressed@2x.png in Resources */,
+				C6EE28F61633F5D50012AB9D /* LISCENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +300,14 @@
 				C6490F20163392BD000257F4 /* main.m in Sources */,
 				C6490F24163392BD000257F4 /* ThesesAppDelegate.m in Sources */,
 				C6490F3216339360000257F4 /* THViewController.m in Sources */,
-				C6490F35163393B5000257F4 /* THRootViewController.m in Sources */,
-				C6490F481633967A000257F4 /* THTabBarController.m in Sources */,
 				C62378351633980100DD3CCD /* THConversationsViewController.m in Sources */,
+				C623783D1633B18800DD3CCD /* THHomeViewController.m in Sources */,
+				C62378501633B51B00DD3CCD /* IIViewDeckController.m in Sources */,
+				C62378511633B51B00DD3CCD /* WrapController.m in Sources */,
+				C6EE28D71633D3940012AB9D /* THViewDeckController.m in Sources */,
+				C6EE28DB1633D4B10012AB9D /* THNavigationController.m in Sources */,
+				C6EE28F11633ED0B0012AB9D /* UIImage+THAdditions.m in Sources */,
+				C6EE28F41633ED1D0012AB9D /* UIView+THAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +378,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Theses/Theses-Prefix.pch";
 				INFOPLIST_FILE = "Theses/Theses-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -287,6 +390,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Theses/Theses-Prefix.pch";
 				INFOPLIST_FILE = "Theses/Theses-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

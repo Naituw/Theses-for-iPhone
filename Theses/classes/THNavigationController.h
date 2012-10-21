@@ -1,5 +1,5 @@
 //
-//  THTabBarController.h
+//  THNavigationController.h
 //  Theses
 //
 //  Created by 吴 天 on 12-10-21.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface THTabBarController : UITabBarController
+@interface THNavigationController : UINavigationController
 
 @end

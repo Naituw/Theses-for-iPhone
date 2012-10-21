@@ -7,23 +7,46 @@
 //
 
 #import "ThesesAppDelegate.h"
-#import "THRootViewController.h"
-#import "THTabBarController.h"
+#import "THViewDeckController.h"
+#import "THNavigationController.h"
+#import "THHomeViewController.h"
+#import "THConversationsViewController.h"
 
 @interface ThesesAppDelegate ()
-@property (nonatomic, retain) THTabBarController * tabBarController;
 @end
 
 @implementation ThesesAppDelegate
 
 - (void)dealloc
 {
-    [_tabBarController release], _tabBarController = nil;
     [_window release], _window = nil;
     [super dealloc];
 }
 
 - (void)setupUserInterface
+{
+    THHomeViewController * homeViewController = [[THHomeViewController alloc] init];
+    THConversationsViewController * conversationsViewController = [[THConversationsViewController alloc] init];
+    
+    homeViewController.title = NSLocalizedString(@"主页", "");
+    conversationsViewController.title = NSLocalizedString(@"消息", "");
+    
+    THNavigationController * navigationWrapper = [[THNavigationController alloc] initWithRootViewController:homeViewController];
+    
+    THViewDeckController * viewDeckController = [[THViewDeckController alloc] initWithCenterViewController:navigationWrapper rightViewController:conversationsViewController];
+    
+    self.window.rootViewController = viewDeckController;
+    
+    [navigationWrapper release];
+    [homeViewController release];
+    [conversationsViewController release];
+}
+
+- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
+{
+    return YES;
+}
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
 {
     
 }
@@ -31,11 +54,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+        
+    [self setupUserInterface];
     
-    self.tabBarController = [[[THTabBarController alloc] init] autorelease];
-    self.window.rootViewController = self.tabBarController;
-    
-    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
     [self.window makeKeyAndVisible];
     return YES;
 }
