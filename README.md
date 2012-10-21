@@ -1,7 +1,7 @@
 # Theses for iPhone
 Created by **Wutian**
 
-论文管理系统(毕业设计)中的iPhone客户端。
+"论文管理系统"（毕业设计）中的iPhone客户端。
 
 # License
 
