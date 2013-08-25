@@ -3,6 +3,10 @@ Created by **Wutian**
 
 "论文管理系统"（毕业设计）中的iPhone客户端。
 
+# Status
+
+已烂尾。。。Theses网页前端被设计成响应式布局，没有再开发iOS客户端
+
 # License
 
 **Theses for iPhone** is available under the MIT license:
